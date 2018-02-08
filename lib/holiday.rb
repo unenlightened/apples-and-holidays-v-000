@@ -83,6 +83,11 @@ def all_holidays_with_bbq(holiday_hash)
   match = []
 
   holiday_hash.each do |season, holiday|
-    holiday.collect.key.value.any?("BBQ")
+    holiday.each do |each|
+      match << holiday if each == "BBQ"
+    end
+  end
+
+
 
 end
