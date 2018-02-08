@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
 
-  holiday_hash.each do |season, holiday|
+  holiday_hash.each do |season, holiday_supplies|
     puts "#{string_cleaning(season)}:"
       season.each do |holiday, supplies|
         supplies_cleaned = []
