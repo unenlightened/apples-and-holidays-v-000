@@ -65,10 +65,15 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     holiday.each do |supplies|
       puts "  #{stringify(holiday)}: "
-    
+
     end
   end
 
+
+end
+
+def stringify(content)
+  content.to_s.capitalize
 end
 
 def all_holidays_with_bbq(holiday_hash)
