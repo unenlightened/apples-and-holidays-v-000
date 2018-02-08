@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
 
 end
 
-def stringify(content)
+def string_cleaning(content)
   content.to_s.capitalize
 end
 
