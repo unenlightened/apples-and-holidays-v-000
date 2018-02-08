@@ -64,9 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday_supplies|
     puts "#{string_cleaning(season)}:"
       season.each do |holiday, supplies|
-        supplies_cleaned = []
-        supplies.each {|supply| supplies_cleaned << string_cleaning(supply)}
-        puts "  #{string_cleaning(holiday)}: #{supplies.cleaned.flatten}"
+        
+        puts "  #{string_cleaning(holiday)}:""
       end
     end
   end
