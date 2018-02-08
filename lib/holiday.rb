@@ -80,4 +80,9 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
   holiday_hash[season][holiday][supplies]
+  match = []
+
+  holiday_hash.each do |season, holiday|
+    holiday.collect.key.value.any?("BBQ")
+
 end
