@@ -81,9 +81,9 @@ def all_holidays_with_bbq(holiday_hash)
   match = []
 
   holiday_hash.each do |season, holiday|
-    holiday.each do |supply,supplies|
+    holiday.each do |supplies,supply|
       if true
-        match << supply
+        match << supplies
       end
     end
   end
