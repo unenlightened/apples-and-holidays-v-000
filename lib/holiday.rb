@@ -67,10 +67,8 @@ def all_supplies_in_holidays(holiday_hash)
         supplies_cleaned = []
         supplies.each {|supply| supplies_cleaned << string_cleaning(supply)}
         puts "  #{string_cleaning(holiday): supplies_cleaned.flatten}"
-
-
-
-  end
+      end
+    end
 
 
 end
