@@ -85,4 +85,5 @@ def all_holidays_with_bbq(holiday_hash)
       match << holiday if each == "BBQ"
     end
   end
+  match
 end
