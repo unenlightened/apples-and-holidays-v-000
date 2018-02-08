@@ -69,9 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  #{string_cleaning(holiday): supplies_cleaned.flatten}"
       end
     end
-
-
-end
+  end
 
 def string_cleaning(content)
   content.to_s.split("_").each {|word| word.capitalize!}.join(" ")  # :jerry_s => "Jerry S"
